@@ -1,0 +1,29 @@
+<html>
+    <title> Login </title>
+    <style>
+        body{
+            font-family: arial;
+            padding: 20px;
+
+            form {
+                max-width: 300px;
+                margin: auto;
+            }
+
+        }
+
+    </style>
+    <head>
+        <body> 
+            <h1> LIBRARY </h1>
+            <form onsubmit="return validateForm()" method="post" action = "login.php"> 
+                <label> Email:      </label>
+                <input type="text" id="email" name = "email"/>
+                <label> Password: </label>
+                <input type="password" id="password" name = "password"/>
+                <button type = "submit"> Submit </button>
+            </form>
+            <script src = "login.js"></script>
+        </body>
+    </head>
+</html>
